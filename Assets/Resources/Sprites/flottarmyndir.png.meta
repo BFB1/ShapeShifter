@@ -1,0 +1,1150 @@
+fileFormatVersion: 2
+guid: 13a13b6afb0f7e0468312309fd5f37e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4732130957770054834
+    second: flottarmyndir_0
+  - first:
+      213: -248825109038168575
+    second: flottarmyndir_1
+  - first:
+      213: 1090558094825779818
+    second: flottarmyndir_2
+  - first:
+      213: 4024743139801598268
+    second: flottarmyndir_3
+  - first:
+      213: 3107079898918524012
+    second: flottarmyndir_4
+  - first:
+      213: 8981897947222461918
+    second: flottarmyndir_5
+  - first:
+      213: -5862321635245729102
+    second: flottarmyndir_6
+  - first:
+      213: -1681402630223739136
+    second: flottarmyndir_7
+  - first:
+      213: -7222496920853858221
+    second: flottarmyndir_8
+  - first:
+      213: 6466050575801993569
+    second: flottarmyndir_9
+  - first:
+      213: -258890987748738816
+    second: flottarmyndir_10
+  - first:
+      213: -7535753325825022027
+    second: flottarmyndir_11
+  - first:
+      213: -5414559700794753314
+    second: flottarmyndir_12
+  - first:
+      213: -6069348241237405944
+    second: flottarmyndir_13
+  - first:
+      213: 5258662406249160781
+    second: flottarmyndir_14
+  - first:
+      213: 4800368301391294672
+    second: flottarmyndir_15
+  - first:
+      213: -7138129506800890853
+    second: flottarmyndir_16
+  - first:
+      213: 6871264664134566985
+    second: flottarmyndir_17
+  - first:
+      213: 8013831251568223562
+    second: flottarmyndir_18
+  - first:
+      213: 4776594636003934731
+    second: flottarmyndir_19
+  - first:
+      213: -5828512193396669271
+    second: flottarmyndir_20
+  - first:
+      213: -172353501467509743
+    second: flottarmyndir_21
+  - first:
+      213: -1894995656641417748
+    second: flottarmyndir_22
+  - first:
+      213: 5908892470070542274
+    second: flottarmyndir_23
+  - first:
+      213: -7715262588234191381
+    second: flottarmyndir_24
+  - first:
+      213: -4522561370191119235
+    second: flottarmyndir_25
+  - first:
+      213: -1592354684069661689
+    second: flottarmyndir_26
+  - first:
+      213: 5462526017314288387
+    second: flottarmyndir_27
+  - first:
+      213: -8928060798037635721
+    second: flottarmyndir_28
+  - first:
+      213: -7793885328922808556
+    second: flottarmyndir_29
+  - first:
+      213: 3327975459550741401
+    second: flottarmyndir_30
+  - first:
+      213: 7627560454921502657
+    second: flottarmyndir_31
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flottarmyndir_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1288
+        width: 188
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753adbad0c5a9aa46a92eeeaa91b7c3f
+      internalID: 4732130957770054834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_1
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1256
+        width: 220
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcf90bfbddf9834baaabfd69bb95407
+      internalID: -248825109038168575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_2
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 1042
+        width: 220
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2035fa32f864645b92b5429c4f816e
+      internalID: 1090558094825779818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_3
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1252
+        width: 198
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0ffe4a4dab9ac4cbe1a55c2eb51e99
+      internalID: 4024743139801598268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_4
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 1226
+        width: 118
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca9de20082af304e89cc3b53760a15f
+      internalID: 3107079898918524012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1110
+        width: 176
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6852295b1879944995d31a98a5667d
+      internalID: 8981897947222461918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1064
+        width: 200
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc55d232ee33b842846fcc0db85eb2e
+      internalID: -5862321635245729102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_7
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1022
+        width: 174
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072528bbcfbdc3040803332b628b0855
+      internalID: -1681402630223739136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_8
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 796
+        width: 206
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc54722c29f0f245981aff42f54be7b
+      internalID: -7222496920853858221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_9
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1004
+        width: 126
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6120cd03027ba2e48842631b2b340e2e
+      internalID: 6466050575801993569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 946
+        width: 182
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2017531cec02d124ab058c615091ecf8
+      internalID: -258890987748738816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_11
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 794
+        width: 176
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525efc4e11957314fac9dcdcbb26578d
+      internalID: -7535753325825022027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_12
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 802
+        width: 186
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1413eddec71c34e9b2be7dc821e3f7
+      internalID: -5414559700794753314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_13
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 762
+        width: 122
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b952a8f65b1f9d4dbe2dfe7ff782b04
+      internalID: -6069348241237405944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 782
+        width: 170
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b60dd9bb5bc6a045bfc99f9d5f719e5
+      internalID: 5258662406249160781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_15
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 630
+        width: 176
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea615366a8ff4d42a903113ef9f1eee
+      internalID: 4800368301391294672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_16
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 592
+        width: 170
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271703d72ccbcc441a1fdfc2c89cb614
+      internalID: -7138129506800890853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_17
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 612
+        width: 174
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af35b3fc4ef715340a4c528de962b0dd
+      internalID: 6871264664134566985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_18
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 546
+        width: 200
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc402cffb8f6b64ea68208ddd821b69
+      internalID: 8013831251568223562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_19
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 526
+        width: 122
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f308b49780f1474468514e67ee7fd29e
+      internalID: 4776594636003934731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_20
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 534
+        width: 120
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b379debf84ce14da58b8ed0286f78a
+      internalID: -5828512193396669271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_21
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 452
+        width: 172
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e83826888db7c4788df25cad819b5e
+      internalID: -172353501467509743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_22
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 410
+        width: 174
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c570e625c5545cb4bb04094e6fee0b88
+      internalID: -1894995656641417748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_23
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 426
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96611aa5d2ea464bb1c55527f9bc627
+      internalID: 5908892470070542274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_24
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 264
+        width: 190
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b100abf0820ec204db896dae2dac9451
+      internalID: -7715262588234191381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_25
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 298
+        width: 126
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4daa48771a4bf3d4f845ce4c74fd566d
+      internalID: -4522561370191119235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_26
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 298
+        width: 126
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08b9bdd9175af84fab47be25e9af004
+      internalID: -1592354684069661689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_27
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 102
+        width: 186
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ecc0259d2b40744bf69260a6237797
+      internalID: 5462526017314288387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_28
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 222
+        width: 168
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfb54cc977bf71448f69db0fd05d845
+      internalID: -8928060798037635721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_29
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 240
+        width: 178
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ac36ee430f82d4c9ee686a19249626
+      internalID: -7793885328922808556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_30
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 40
+        width: 106
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712115c59f015314ebf06baca4069e2d
+      internalID: 3327975459550741401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flottarmyndir_31
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 86
+        width: 128
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556cb0c268abf4a47ab805b70ad7fdab
+      internalID: 7627560454921502657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 555.7617, y: -480.3486}
+      - {x: 523.9746, y: -525.46136}
+      - {x: 523.9746, y: -657.7239}
+      - {x: 546.5332, y: -712.0643}
+      - {x: 597.80273, y: -712.0643}
+      - {x: 604.98047, y: -704.8872}
+      - {x: 633.6914, y: -665.9262}
+      - {x: 633.6914, y: -543.9166}
+      - {x: 618.31055, y: -480.3486}
+    - - {x: 753.6621, y: -461.89337}
+      - {x: 716.74805, y: -540.84076}
+      - {x: 716.74805, y: -601.3329}
+      - {x: 752.6367, y: -658.74915}
+      - {x: 761.86523, y: -665.9262}
+      - {x: 814.16016, y: -665.9262}
+      - {x: 847.99805, y: -596.2064}
+      - {x: 847.99805, y: -513.1579}
+      - {x: 808.0078, y: -461.89337}
+    - - {x: -883.8867, y: -346.03555}
+      - {x: -908.4961, y: -353.2126}
+      - {x: -913.62305, y: -417.80588}
+      - {x: -913.62305, y: -643.3698}
+      - {x: -877.7344, y: -649.52155}
+      - {x: -771.09375, y: -649.52155}
+      - {x: -731.1035, y: -644.3951}
+      - {x: -723.9258, y: -554.1695}
+      - {x: -723.9258, y: -363.46548}
+      - {x: -775.1953, y: -346.03555}
+    - - {x: -257.37305, y: -356.28845}
+      - {x: -279.93164, y: -403.4518}
+      - {x: -279.93164, y: -524.4361}
+      - {x: -276.85547, y: -529.56256}
+      - {x: -131.25, y: -529.56256}
+      - {x: -108.69141, y: -520.3349}
+      - {x: -108.69141, y: -367.56665}
+      - {x: -138.42773, y: -356.28845}
+    - - {x: -20.507812, y: -338.85852}
+      - {x: -42.041016, y: -390.12305}
+      - {x: -42.041016, y: -481.3739}
+      - {x: -14.355469, y: -512.1326}
+      - {x: 113.81836, y: -512.1326}
+      - {x: 139.45312, y: -460.86807}
+      - {x: 139.45312, y: -347.06082}
+      - {x: 132.27539, y: -338.85852}
+    - - {x: 192.77344, y: -480.3486}
+      - {x: 195.84961, y: -486.50034}
+      - {x: 197.90039, y: -487.52563}
+      - {x: 376.31836, y: -487.52563}
+      - {x: 385.54688, y: -486.50034}
+      - {x: 385.54688, y: -436.2611}
+      - {x: 319.92188, y: -250.68353}
+      - {x: 264.55078, y: -250.68353}
+      - {x: 192.77344, y: -410.62885}
+    - - {x: 608.05664, y: -252.73412}
+      - {x: 554.7363, y: -252.73412}
+      - {x: 519.87305, y: -335.78262}
+      - {x: 519.87305, y: -394.22418}
+      - {x: 557.8125, y: -453.69104}
+      - {x: 594.72656, y: -453.69104}
+      - {x: 650.09766, y: -387.04715}
+      - {x: 650.09766, y: -334.75735}
+      - {x: 621.3867, y: -258.88586}
+    - - {x: 788.5254, y: -236.32945}
+      - {x: 760.83984, y: -316.30212}
+      - {x: 760.83984, y: -384.99658}
+      - {x: 808.0078, y: -453.69104}
+      - {x: 844.9219, y: -453.69104}
+      - {x: 890.03906, y: -394.22418}
+      - {x: 890.03906, y: -307.0745}
+      - {x: 849.02344, y: -236.32945}
+    - - {x: -227.63672, y: -177.88791}
+      - {x: -275.83008, y: -218.89952}
+      - {x: -275.83008, y: -296.8216}
+      - {x: -222.50977, y: -341.9344}
+      - {x: -145.60547, y: -341.9344}
+      - {x: -98.4375, y: -309.1251}
+      - {x: -98.4375, y: -220.9501}
+      - {x: -158.93555, y: -177.88791}
+    - - {x: 17.43164, y: -152.25565}
+      - {x: -33.83789, y: -177.88791}
+      - {x: -33.83789, y: -281.44223}
+      - {x: -19.482422, y: -325.52972}
+      - {x: 112.79297, y: -325.52972}
+      - {x: 141.5039, y: -315.27682}
+      - {x: 141.5039, y: -183.01436}
+      - {x: 110.74219, y: -152.25565}
+    - - {x: -835.69336, y: -137.90157}
+      - {x: -876.709, y: -139.95215}
+      - {x: -885.9375, y: -150.20506}
+      - {x: -885.9375, y: -286.5687}
+      - {x: -867.48047, y: -290.66986}
+      - {x: -812.1094, y: -299.89746}
+      - {x: -712.6465, y: -299.89746}
+      - {x: -710.5957, y: -287.594}
+      - {x: -710.5957, y: -139.95215}
+      - {x: -712.6465, y: -137.90157}
+    - - {x: 621.3867, y: -17.942583}
+      - {x: 580.3711, y: -17.942583}
+      - {x: 528.0762, y: -94.83937}
+      - {x: 528.0762, y: -142.00273}
+      - {x: 558.8379, y: -226.07655}
+      - {x: 612.1582, y: -226.07655}
+      - {x: 654.1992, y: -156.3568}
+      - {x: 654.1992, y: -108.168144}
+      - {x: 626.5137, y: -18.967875}
+    - - {x: 818.2617, y: -10.765551}
+      - {x: 770.06836, y: -81.5106}
+      - {x: 770.06836, y: -148.15448}
+      - {x: 811.084, y: -217.87424}
+      - {x: 864.4043, y: -217.87424}
+      - {x: 894.1406, y: -140.97745}
+      - {x: 894.1406, y: -62.030075}
+      - {x: 854.1504, y: -10.765551}
+    - - {x: 265.57617, y: 31.27136}
+      - {x: 237.89062, y: 0.51264524}
+      - {x: 172.26562, y: -160.45796}
+      - {x: 172.26562, y: -205.57074}
+      - {x: 352.73438, y: -205.57074}
+      - {x: 375.29297, y: -204.54546}
+      - {x: 375.29297, y: -144.05331}
+      - {x: 300.43945, y: 31.27136}
+    - - {x: -273.7793, y: -157.3821}
+      - {x: -271.72852, y: -159.43268}
+      - {x: -114.84375, y: -159.43268}
+      - {x: -100.48828, y: -153.28093}
+      - {x: -100.48828, y: -39.473682}
+      - {x: -130.22461, y: 9.74026}
+      - {x: -254.29688, y: 9.74026}
+      - {x: -273.7793, y: -37.423103}
+    - - {x: -29.736328, y: 31.27136}
+      - {x: -35.88867, y: 27.170198}
+      - {x: -35.88867, y: -91.7635}
+      - {x: -7.1777344, y: -139.95215}
+      - {x: 101.51367, y: -139.95215}
+      - {x: 141.5039, y: -108.168144}
+      - {x: 141.5039, y: -2.5632262}
+      - {x: 97.41211, y: 31.27136}
+    - - {x: -725.97656, y: 30.246069}
+      - {x: -797.7539, y: 29.22078}
+      - {x: -808.0078, y: 31.27136}
+      - {x: -813.13477, y: 31.27136}
+      - {x: -815.18555, y: 33.32194}
+      - {x: -812.1094, y: 32.29665}
+      - {x: -770.06836, y: 30.246069}
+      - {x: -736.23047, y: 30.246069}
+      - {x: -722.9004, y: 34.347233}
+      - {x: -716.74805, y: 134.8257}
+      - {x: -716.74805, y: 170.71086}
+      - {x: -787.5, y: 188.14081}
+      - {x: -895.166, y: 188.14081}
+      - {x: -897.2168, y: 187.11551}
+      - {x: -897.2168, y: -115.345184}
+      - {x: -873.6328, y: -121.496925}
+      - {x: -718.7988, y: -121.496925}
+      - {x: -716.74805, y: -120.471634}
+      - {x: -716.74805, y: -6.664388}
+      - {x: -718.7988, y: 21.018456}
+    - - {x: 810.0586, y: 221.97539}
+      - {x: 756.7383, y: 168.6603}
+      - {x: 756.7383, y: 74.333565}
+      - {x: 787.5, y: 10.765551}
+      - {x: 842.8711, y: 10.765551}
+      - {x: 881.83594, y: 67.156525}
+      - {x: 881.83594, y: 160.45796}
+      - {x: 842.8711, y: 221.97539}
+    - - {x: 1.0253906, y: 209.6719}
+      - {x: -29.736328, y: 164.55913}
+      - {x: -29.736328, y: 65.10595}
+      - {x: -14.355469, y: 42.549557}
+      - {x: 117.91992, y: 42.549557}
+      - {x: 149.70703, y: 53.82775}
+      - {x: 149.70703, y: 185.06494}
+      - {x: 122.021484, y: 209.6719}
+    - - {x: 705.46875, y: 221.97539}
+      - {x: 705.46875, y: 393.1989}
+      - {x: 694.18945, y: 464.96924}
+      - {x: 642.9199, y: 485.47504}
+      - {x: 592.6758, y: 485.47504}
+      - {x: 528.0762, y: 464.96924}
+      - {x: 496.28906, y: 324.50446}
+      - {x: 496.28906, y: 44.600136}
+      - {x: 689.0625, y: 44.600136}
+      - {x: 700.3418, y: 73.30827}
+      - {x: 644.9707, y: 210.6972}
+      - {x: 635.7422, y: 230.17772}
+    - - {x: 296.3379, y: 235.30417}
+      - {x: 264.55078, y: 216.84894}
+      - {x: 212.25586, y: 99.96582}
+      - {x: 212.25586, y: 56.90362}
+      - {x: 215.33203, y: 50.75188}
+      - {x: 400.92773, y: 50.75188}
+      - {x: 401.95312, y: 52.80246}
+      - {x: 401.95312, y: 108.168144}
+      - {x: 338.3789, y: 235.30417}
+    - - {x: -901.31836, y: 215.82365}
+      - {x: -896.1914, y: 194.29256}
+      - {x: -716.74805, y: 194.29256}
+      - {x: -716.74805, y: 345.01025}
+      - {x: -718.7988, y: 352.1873}
+      - {x: -898.2422, y: 352.1873}
+      - {x: -901.31836, y: 341.9344}
+    - - {x: 802.88086, y: 463.94394}
+      - {x: 760.83984, y: 400.37595}
+      - {x: 760.83984, y: 335.78262}
+      - {x: 797.7539, y: 252.73412}
+      - {x: 846.97266, y: 252.73412}
+      - {x: 852.0996, y: 255.80998}
+      - {x: 890.03906, y: 300.92276}
+      - {x: 890.03906, y: 390.12305}
+      - {x: 860.30273, y: 463.94394}
+    - - {x: -5.126953, y: 441.38757}
+      - {x: -44.091797, y: 415.7553}
+      - {x: -44.091797, y: 305.02393}
+      - {x: -7.1777344, y: 270.16403}
+      - {x: 109.7168, y: 270.16403}
+      - {x: 133.30078, y: 325.52972}
+      - {x: 133.30078, y: 413.7047}
+      - {x: 85.10742, y: 441.38757}
+    - - {x: 469.6289, y: 512.1326}
+      - {x: 469.6289, y: 546.9925}
+      - {x: 400.92773, y: 695.6596}
+      - {x: 393.75, y: 712.0643}
+      - {x: 300.43945, y: 712.0643}
+      - {x: 246.09375, y: 468.0451}
+      - {x: 246.09375, y: 290.66986}
+      - {x: 440.91797, y: 290.66986}
+      - {x: 449.1211, y: 314.25153}
+      - {x: 391.69922, y: 447.5393}
+      - {x: 463.47656, y: 498.80383}
+    - - {x: -526.0254, y: 517.25903}
+      - {x: -561.91406, y: 483.42447}
+      - {x: -572.16797, y: 461.89337}
+      - {x: -572.16797, y: 363.46548}
+      - {x: -527.0508, y: 312.20096}
+      - {x: -422.46094, y: 312.20096}
+      - {x: -368.11523, y: 347.06082}
+      - {x: -368.11523, y: 476.24744}
+      - {x: -388.62305, y: 517.25903}
+    - - {x: -901.31836, y: 515.2085}
+      - {x: -903.36914, y: 474.19687}
+      - {x: -903.36914, y: 358.33902}
+      - {x: -725.97656, y: 358.33902}
+      - {x: -723.9258, y: 370.64252}
+      - {x: -723.9258, y: 515.2085}
+    - - {x: 788.5254, y: 697.7102}
+      - {x: 752.6367, y: 605.434}
+      - {x: 752.6367, y: 548.01776}
+      - {x: 789.5508, y: 478.298}
+      - {x: 803.90625, y: 474.19687}
+      - {x: 829.541, y: 474.19687}
+      - {x: 873.6328, y: 557.24536}
+      - {x: 873.6328, y: 607.4846}
+      - {x: 840.8203, y: 697.7102}
+    - - {x: 647.0215, y: 744.87354}
+      - {x: 596.77734, y: 744.87354}
+      - {x: 514.7461, y: 539.8154}
+      - {x: 514.7461, y: 499.82913}
+      - {x: 712.6465, y: 499.82913}
+      - {x: 715.72266, y: 507.00616}
+      - {x: 715.72266, y: 559.29596}
+      - {x: 663.42773, y: 738.7218}
+    - - {x: -99.46289, y: 719.2413}
+      - {x: -226.61133, y: 719.2413}
+      - {x: -284.0332, y: 673.1032}
+      - {x: -284.0332, y: 540.84076}
+      - {x: -278.90625, y: 515.2085}
+      - {x: -218.4082, y: 503.93027}
+      - {x: -116.89453, y: 503.93027}
+      - {x: -60.498047, y: 568.52356}
+      - {x: -60.498047, y: 661.825}
+      - {x: -84.08203, y: 717.1907}
+    - - {x: -883.8867, y: 699.76074}
+      - {x: -901.31836, y: 689.5079}
+      - {x: -901.31836, y: 553.1442}
+      - {x: -889.0137, y: 538.79016}
+      - {x: -830.5664, y: 536.73956}
+      - {x: -712.6465, y: 536.73956}
+      - {x: -710.5957, y: 537.7649}
+      - {x: -710.5957, y: 699.76074}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
