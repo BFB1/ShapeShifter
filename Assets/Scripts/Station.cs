@@ -30,7 +30,7 @@ public class Station : MonoBehaviour
             AddNewPassenger();
         }
 
-        if (Capacity < queue.Count + 5) // 5 Passengers grace for the player to solve the problem
+        if (Capacity < queue.Count - 5) // 5 Passengers grace for the player to solve the problem
         // TODO This should not end the game immediately but rather start a countdown to give the player a chance.
         {
             GameMaster.Instance.GameOver();
