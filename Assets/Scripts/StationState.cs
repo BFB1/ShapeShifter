@@ -20,10 +20,10 @@ public class StationState : BaseState
 
         airplane.RemovePassengers(airplane.CurrentStation.Shape);
             
-        List<int> takenPassengers = airplane.CurrentStation.queue.TakeWhile(passenger => airplane.AddPassenger(passenger)).ToList();
+        List<int> takenPassengers = airplane.CurrentStation.passengers.TakeWhile(passenger => airplane.AddPassenger(passenger)).ToList();
         foreach (int takenPassenger in takenPassengers)
         {
-            airplane.CurrentStation.queue.Remove(takenPassenger);
+            airplane.CurrentStation.passengers.Remove(takenPassenger);
         }
 
         if (airplane.CurrentStation != airplane.Destination)

@@ -13,7 +13,6 @@ public class IdleState : BaseState
 
     public override Type Tick()
     {
-        Debug.Log("IdleState Active");
-        return null;
+        return airplane.Destination != null ? typeof(TravelState) : null;
     }
 }

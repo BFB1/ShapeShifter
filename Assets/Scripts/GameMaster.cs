@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class GameMaster : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class GameMaster : MonoBehaviour
     
     
     public static GameMaster Instance;
+
+    public bool gameOverEnabled = true;
     
     public LineFactory LinePool{ get; private set; }
 
@@ -31,7 +34,7 @@ public class GameMaster : MonoBehaviour
     public ReadOnlyCollection<Airplane> Airplanes => new ReadOnlyCollection<Airplane>(airplanes);
     public ReadOnlyCollection<Station> Stations => new ReadOnlyCollection<Station>(stations);
 
-    public int AvailableShapes { get; private set; } = 1 + 1;
+    private int availableShapes = 2;
 
 
     private void Awake()
@@ -102,17 +105,102 @@ public class GameMaster : MonoBehaviour
         return (float)(80 / (16 * Math.Pow(Math.E, -0.0018 * timePassed) + 4));
     }
 
+    /// <summary>
+    /// Get an available shape
+    /// </summary>
+    /// <returns>A shape index</returns>
+    public int GetShape()
+    {
+        return Random.Range(0, availableShapes);
+    }
+
     
     private IEnumerator SlowUpdate()
     {
         while (true)
         {
             MainCamera.orthographicSize = CalculateCameraZoom(Time.time);
+            CalculateSpawning(Time.time);
             yield return new WaitForSeconds(1);
         }
     }
 
     
+    /// <summary>
+    /// Calculates spawn chances and spawns new objects.
+    /// </summary>
+    /// <param name="timePassed">Time since start of game</param>
+    private void CalculateSpawning(float timePassed)
+    {
+        timePassed /= 60;
+        float pressure = CalculatePlayerPressure();
+        
+        if (Random.value < 1 / (30 * Math.Abs(timePassed - stations.Count * 3 + 6)) * (1 - pressure))
+        {
+            SpawnNewStation(GetShape(), PickStationLocation());
+        }
+        else if (Random.value < 1 / (30 * Math.Abs(timePassed - airplanes.Count * 3)) * pressure && airplanes.Count < stations.Count - 1)
+        {
+            SpawnNewAirplane(1, Vector3.zero);
+        }
+    }
+
+    
+    /// <summary>
+    /// Randomly tries positions until it finds one that's suitable.
+    /// Suitable positions are inside the view of the camera,
+    /// and at least 2 world units away from the nearest stations.
+    /// </summary>
+    /// <returns>A position suitable for a new station</returns>
+    private Vector2 PickStationLocation()
+    {
+        int attempts = 100;
+        while (0 < attempts)
+        {
+            bool positionFound = true;
+            attempts--;
+            
+            Vector2 position = Random.insideUnitCircle * MainCamera.orthographicSize;
+            foreach (Station station in stations)
+            {
+                if (Vector2.Distance(position, station.transform.position) > 2f) continue;
+                positionFound = false;
+                break;
+            }
+            if (positionFound)
+            {
+                return position;
+            }
+        }
+        Debug.LogError("Could not find good position for new station!");
+        return Vector2.zero;
+    }
+    
+    /// <summary>
+    /// Calculate the amount of passengers in the game compared to the total passenger capacity.
+    /// This should provide a good measurement of how the player is doing.
+    /// </summary>
+    /// <returns>Passengers as a percentage of capacity</returns>
+    private float CalculatePlayerPressure()
+    {
+        int totalPassengers = 0;
+        int totalCapacity = 0;
+        
+        foreach (Station station in stations)
+        {
+            totalPassengers += station.passengers.Count;
+            totalCapacity += Station.Capacity;
+        }
+
+        foreach (Airplane airplane in airplanes)
+        {
+            totalPassengers += airplane.Passengers.Count;
+            totalCapacity += Airplane.Capacity;
+        }
+
+        return totalPassengers / (float)totalCapacity;
+    }
+
     /// <summary>
     /// Perform all the actions needed to spawn a new airplane
     /// </summary>
@@ -145,6 +233,9 @@ public class GameMaster : MonoBehaviour
 
     public void GameOver()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (gameOverEnabled)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }

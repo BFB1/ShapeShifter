@@ -69,7 +69,7 @@ public class UiManager : MonoBehaviour
 
             TextMeshProUGUI textObject = stationTextMap[station];
 
-            SetPassengerCountString(textObject, station.queue, Station.Capacity);
+            SetPassengerCountString(textObject, station.passengers, Station.Capacity);
 
             textObject.GetComponent<RectTransform>().localPosition =
                 CalculateViewportPosition(station.transform) + uiOffset;

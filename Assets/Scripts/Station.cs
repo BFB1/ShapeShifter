@@ -10,17 +10,17 @@ public class Station : MonoBehaviour
     {
         get => shape;
         set {
-            queue.RemoveAll((item) => (item == value));
+            passengers.RemoveAll((item) => (item == value));
             shape = value;
         }
     }
 
     [NonSerialized] public const int Capacity = 20;
-    public List<int> queue;
+    public List<int> passengers;
     
     private void Awake()
     {
-        queue = new List<int>();
+        passengers = new List<int>();
     }
     
     private void Update()
@@ -30,7 +30,7 @@ public class Station : MonoBehaviour
             AddNewPassenger();
         }
 
-        if (Capacity < queue.Count - 5) // 5 Passengers grace for the player to solve the problem
+        if (Capacity < passengers.Count - 5) // 5 Passengers grace for the player to solve the problem
         // TODO This should not end the game immediately but rather start a countdown to give the player a chance.
         {
             GameMaster.Instance.GameOver();
@@ -43,8 +43,8 @@ public class Station : MonoBehaviour
         int newPassenger;
         do
         {
-            newPassenger = Random.Range(0, GameMaster.Instance.AvailableShapes);
+            newPassenger = GameMaster.Instance.GetShape();
         } while (newPassenger == shape);
-        queue.Add(newPassenger);
+        passengers.Add(newPassenger);
     }
 }
