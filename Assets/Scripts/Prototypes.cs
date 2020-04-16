@@ -16,7 +16,8 @@ public static class Prototypes
         stationComponent.Shape = shape;
 
         SpriteRenderer sr = newStation.AddComponent<SpriteRenderer>();
-        
+        sr.sortingLayerName = "Stations";
+
         Animator animatorComponent = newStation.AddComponent<Animator>(); 
 
         BoxCollider2D boxCollider2D = newStation.AddComponent<BoxCollider2D>();
@@ -35,6 +36,7 @@ public static class Prototypes
         Airplane airplaneComponent = newAirplane.AddComponent<Airplane>();
         
         SpriteRenderer sr = newAirplane.AddComponent<SpriteRenderer>();
+        sr.sortingLayerName = "Airplanes";
 
         Animator animatorComponent = newAirplane.AddComponent<Animator>(); 
         
