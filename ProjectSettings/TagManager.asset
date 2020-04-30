@@ -43,3 +43,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Stations
+    uniqueID: 756385611
+    locked: 0
+  - name: Airplanes
+    uniqueID: 2172361149
+    locked: 0

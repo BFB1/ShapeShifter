@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: 524a3d0ec841f4dc3b3fc1644e510d83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3650851537386279466
+    second: cut sprites mk1_0
+  - first:
+      213: 164020956376602509
+    second: cut sprites mk1_1
+  - first:
+      213: -5473135465415664274
+    second: cut sprites mk1_2
+  - first:
+      213: -2523888682568115621
+    second: cut sprites mk1_3
+  - first:
+      213: 2648875406044120642
+    second: cut sprites mk1_4
+  - first:
+      213: -3860579024318234765
+    second: cut sprites mk1_5
+  - first:
+      213: 5542231790455300145
+    second: cut sprites mk1_6
+  - first:
+      213: 8236243727860476162
+    second: cut sprites mk1_7
+  - first:
+      213: 2135267938525149998
+    second: cut sprites mk1_8
+  - first:
+      213: 869335937788532626
+    second: cut sprites mk1_9
+  - first:
+      213: 6231258020248538627
+    second: cut sprites mk1_10
+  - first:
+      213: 5678144943448442717
+    second: cut sprites mk1_11
+  - first:
+      213: 7079396452482622340
+    second: cut sprites mk1_12
+  - first:
+      213: 8732832307981582930
+    second: cut sprites mk1_13
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cut sprites mk1_0
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 3118
+        width: 251
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d0760d1199a46b39ce72b49bf9ba1a
+      internalID: 3650851537386279466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_1
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 3115
+        width: 235
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b94223d7d66496ab879ac9cc56b00f
+      internalID: 164020956376602509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_2
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 3106
+        width: 265
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a2faa9d60964ab2a84594d1251a59a
+      internalID: -5473135465415664274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_3
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 3113
+        width: 267
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fe844bd226e485bbcf5cfcba076e85
+      internalID: -2523888682568115621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_4
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 2423
+        width: 327
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7a6474645054416b7fc7f186be9092
+      internalID: 2648875406044120642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_5
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 2410
+        width: 272
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f55c7a7e46f747e1bd0bd51eade430c
+      internalID: -3860579024318234765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_6
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 2408
+        width: 303
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815d95313cb114773a0d6808ae87ba82
+      internalID: 5542231790455300145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2016
+        width: 321
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc4d642bee4f4ee49c55fceae076d56
+      internalID: 8236243727860476162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_8
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1990
+        width: 371
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a6f16dc7e864b73b9c6b7153c51654
+      internalID: 2135267938525149998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_9
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2007
+        width: 344
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca760e241e3394aa9b9476e1bf008331
+      internalID: 869335937788532626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_10
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1087
+        width: 219
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359dfd5a9019d43958dc9bc1fe3d066c
+      internalID: 6231258020248538627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_11
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1070
+        width: 214
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8794ce0eeb78744a287ea0f60f63d661
+      internalID: 5678144943448442717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_12
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1075
+        width: 213
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d05a69189c1448508cec1f66635023b
+      internalID: 7079396452482622340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cut sprites mk1_13
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1067
+        width: 183
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0be3e9b138a4ee182cb71f90eaa835
+      internalID: 8732832307981582930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

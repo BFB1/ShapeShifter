@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class InputManager : MonoBehaviour
@@ -21,18 +22,22 @@ public class InputManager : MonoBehaviour
         }
     }
 
-    private Collider2D GetObjectUnderMouse()
+    private List<Collider2D> GetObjectsUnderMouse()
     {
-        Collider2D hit = Physics2D.OverlapArea(mousePosition - Vector3.one, mousePosition + Vector3.one);
-        return hit;
+        List<Collider2D> results = new List<Collider2D>();
+        Physics2D.OverlapCircle(mousePosition, 1, new ContactFilter2D(), results);
+        return results;
     }
     
     private Airplane GetAirplaneUnderMouse()
     {
-        Collider2D hit = GetObjectUnderMouse();
-        if (!Equals(hit, null) && hit.gameObject.CompareTag("Airplane"))
+        List<Collider2D> hits = GetObjectsUnderMouse();
+        foreach (Collider2D hit in hits)
         {
-            return hit.gameObject.GetComponent<Airplane>();
+            if (!Equals(hit, null) && hit.gameObject.CompareTag("Airplane"))
+            {
+                return hit.gameObject.GetComponent<Airplane>();
+            }
         }
 
         return null;
@@ -40,10 +45,13 @@ public class InputManager : MonoBehaviour
 
     private Station GetStationUnderMouse()
     {
-        Collider2D hit = GetObjectUnderMouse();
-        if (!Equals(hit, null) && hit.gameObject.CompareTag("Station"))
+        List<Collider2D> hits = GetObjectsUnderMouse();
+        foreach (Collider2D hit in hits)
         {
-            return hit.gameObject.GetComponent<Station>();
+            if (!Equals(hit, null) && hit.gameObject.CompareTag("Station"))
+            {
+                return hit.gameObject.GetComponent<Station>();
+            }
         }
 
         return null;

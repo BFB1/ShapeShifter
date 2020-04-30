@@ -69,8 +69,11 @@ public class GameMaster : MonoBehaviour
         
         shapeGraphicMap = new Dictionary<int, RuntimeAnimatorController>()
         {
-            {0, Resources.Load <RuntimeAnimatorController> ("Animations/box_anim")},
-            {1, Resources.Load <RuntimeAnimatorController> ("Animations/cross_anim")}
+            {0, Resources.Load <RuntimeAnimatorController> ("Animations/new_box_animator")},
+            {1, Resources.Load <RuntimeAnimatorController> ("Animations/new_cross_animator")},
+            {2, Resources.Load <RuntimeAnimatorController> ("Animations/triangle_animator")},
+            {3, Resources.Load <RuntimeAnimatorController> ("Animations/octagon_animator")},
+            {4, Resources.Load <RuntimeAnimatorController> ("Animations/airplane_animator")}
         };
     }
 
@@ -85,7 +88,7 @@ public class GameMaster : MonoBehaviour
         SpawnNewStation(1, new Vector3(3, 3));
         SpawnNewStation(0, new Vector3(3, -1));
 
-        SpawnNewAirplane(1, Vector3.zero);
+        SpawnNewAirplane(Vector3.zero);
 
         airplanes[0].NewDestination(stations[0]);
     }
@@ -141,7 +144,7 @@ public class GameMaster : MonoBehaviour
         }
         else if (Random.value < 1 / (30 * Math.Abs(timePassed - airplanes.Count * 3)) * pressure && airplanes.Count < stations.Count - 1)
         {
-            SpawnNewAirplane(1, Vector3.zero);
+            SpawnNewAirplane(Vector3.zero);
         }
     }
 
@@ -206,9 +209,9 @@ public class GameMaster : MonoBehaviour
     /// </summary>
     /// <param name="shape">Shape index</param>
     /// <param name="position">World position</param>
-    private void SpawnNewAirplane(int shape, Vector3 position)
+    private void SpawnNewAirplane(Vector3 position)
     {
-        Airplane airplane = Prototypes.CreateAirplane(position, shapeGraphicMap[shape]);
+        Airplane airplane = Prototypes.CreateAirplane(position, shapeGraphicMap[4]);
         
         airplanes.Add(airplane);
 
@@ -223,6 +226,10 @@ public class GameMaster : MonoBehaviour
     /// <param name="position">World position</param>
     private void SpawnNewStation(int shape, Vector3 position)
     {
+        if (Random.value < 0.5 && availableShapes <= 3)
+        {
+            availableShapes++;
+        }
         Station station = Prototypes.CreateStation(shape, position, shapeGraphicMap[shape]);
         
         stations.Add(station);

@@ -5,11 +5,13 @@ public class TravelState : BaseState
 {
     private const float Delta = 0.01f;
     private readonly Airplane airplane;
+    private readonly Transform airplaneTransform;
 
 
     public TravelState(Airplane airplane) : base(airplane.gameObject)
     {
         this.airplane = airplane;
+        airplaneTransform = airplane.transform;
     }
 
     public override Type Tick()
@@ -26,7 +28,10 @@ public class TravelState : BaseState
             return typeof(StationState);
         }
 
-        airplane.transform.Translate((destination - airplane.transform.position).normalized * 0.01f);
+        Vector3 difference = destination - airplane.transform.position;
+        
+        airplaneTransform.rotation = Quaternion.Euler(0f, 0f, Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg - 90);
+        airplaneTransform.position += (difference).normalized * 0.01f;
         return null;
     }
 }
