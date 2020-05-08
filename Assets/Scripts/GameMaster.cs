@@ -140,7 +140,13 @@ public class GameMaster : MonoBehaviour
         
         if (Random.value < 1 / (30 * Math.Abs(timePassed - stations.Count * 3 + 6)) * (1 - pressure))
         {
-            SpawnNewStation(GetShape(), PickStationLocation());
+            int shape = GetShape();
+            if (Random.value < 0.5 && availableShapes <= 3)
+            {
+                availableShapes++;
+                shape = availableShapes - 1;
+            }
+            SpawnNewStation(shape, PickStationLocation());
         }
         else if (Random.value < 1 / (30 * Math.Abs(timePassed - airplanes.Count * 3)) * pressure && airplanes.Count < stations.Count - 1)
         {
@@ -226,10 +232,6 @@ public class GameMaster : MonoBehaviour
     /// <param name="position">World position</param>
     private void SpawnNewStation(int shape, Vector3 position)
     {
-        if (Random.value < 0.5 && availableShapes <= 3)
-        {
-            availableShapes++;
-        }
         Station station = Prototypes.CreateStation(shape, position, shapeGraphicMap[shape]);
         
         stations.Add(station);
