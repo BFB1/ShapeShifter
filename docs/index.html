@@ -1,29 +1,27 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | ShapeShifter</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/testbuild.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <header>
-      <h1>ShapeShifter</h1>
-      <p>ShapeShifter er tölvuleikur þar sem maður þarf að færa grunnform milli staða.</p>
-    </header>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">ShapeShifter</div>
-      </div>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>ShapeShifter</title>
+</head>
+<body>
+<header class="homeHeader">
+    <h1>ShapeShifter</h1>
+    <p>ShapeShifter er tölvuleikur þar sem maður þarf að færa grunnform milli staða.
+        Með því að smella á og draga örvarnar á stöð(form), skipar þú örinni að fara á þá stöð og skiptast á farþegum við hana.
+        Leikurinn er búinn þegar þér tekst ekki að halda formunum á hreyfingu og stöð fyllist.
+        Í þessari frumgerð eru farþegar örvanna táknaðir með tölum sem eiga við hvert form.
+    </p>
+    <div class="links">
+        <a href="">Niðurhala</a>
+        <a href="https://github.com/baldurfb/ShapeShifter/wiki/Verkefni-5-g%C3%B6gn">Wiki</a>
+        <a href="game.html">Spila núna!</a>
     </div>
-  </body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bQADNYDn9q4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+</body>
 </html>

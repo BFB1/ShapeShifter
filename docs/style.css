@@ -1,0 +1,135 @@
+body {
+    box-sizing: border-box;
+    margin: auto auto 0.8em;
+}
+img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+}
+p {
+    font-family: 'Oxygen', sans-serif;
+    line-height: 1.5em;
+}
+
+.links {
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+/*General classes*/
+.flexbox {
+    display: flex;
+}
+.flexbox div, section {
+    flex: 1;
+}
+.centerText {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .flexbox {
+        display: block;
+    }
+}
+
+
+/*HEADER*/
+.homeHeader {
+    text-align: center;
+}
+.homeHeader h1 {
+    font-size: 5em;
+    padding: 1em;
+    margin: 0;
+}
+.homeHeader a {
+    text-decoration: none;
+    padding: 0.5em 0;
+    margin: 1em 0;
+}
+.homeHeader nav a {
+    flex: 1;
+}
+.homeHeader nav {
+    display: flex;
+}
+.box {
+    background: linear-gradient(
+            #00cc99, #00cc99 50%, #333 50%, #333);
+    background-size: 100% 205%;
+    transition: all 0.2s ease;
+}
+.box:hover {
+    background-position: 100% 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .homeHeader nav {
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+    .homeHeader nav a {
+        margin: 0;
+        flex: 1 0 50%;
+    }
+    .homeHeader h1 {
+        font-size: 2.6em;
+    }
+}
+
+/*CONTENT*/
+
+section h1 {
+    font-family: 'Exo', sans-serif;
+}
+.mainContent {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainContent p {
+    font-size: 1.1em;
+}
+.mainContent h1 {
+    font-size: 1.7em;
+    font-family: 'Exo', sans-serif;
+}
+.title {
+    font-size: 1.7em;
+}
+@media only screen and (max-width: 600px) {
+    .mainContent h2 {
+        text-align: center;
+    }
+}
+
+/*FORMS*/
+
+label {
+    font-family: 'Exo', sans-serif;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
